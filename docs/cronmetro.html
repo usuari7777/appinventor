@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="Spanish" xml:lang="Spanish" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Cronómetro | Programando en AppInventor </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="Spanish" />
+<meta name="author" content="Francisco Nevado Montero" />
+<meta name="generator" content="eXeLearning 2.0.1 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="cronmetro.html#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" >Programando en AppInventor</div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Programando en AppInventor</a></li>
+   <li><a href="qu_es_esto.html" class="no-ch">¿Qué es esto?</a></li>
+   <li><a href="antes_de_empezar.html" class="no-ch">Antes de empezar</a></li>
+   <li><a href="hola_mundo.html" class="no-ch">Hola mundo</a></li>
+   <li><a href="el_mvil_que_habla.html" class="no-ch">El móvil que habla</a></li>
+   <li><a href="pelota_que_rebota.html" class="no-ch">Pelota que rebota</a></li>
+   <li><a href="cada_cosa_en_su_sitio.html" class="no-ch">Cada cosa en su sitio</a></li>
+   <li><a href="eco_ecoooo.html" class="no-ch">Eco, ecoooo....</a></li>
+   <li><a href="pinta_en_la_pizarra.html" class="no-ch">Pinta en la pizarra</a></li>
+   <li><a href="pntate_la_cara.html" class="no-ch">Píntate la cara</a></li>
+   <li id="active"><a href="cronmetro.html" class="active no-ch">Cronómetro</a></li>
+   <li><a href="the_final_countdown.html" class="no-ch">The final countdown</a></li>
+   <li><a href="stop__descrgate_tus_apps.html" class="no-ch">¡Stop! - Descárgate tus apps</a></li>
+   <li><a href="si_vas_al_mercado_lleva_dinero.html" class="no-ch">Si vas al mercado, lleva dinero</a></li>
+   <li><a href="donde_estoy.html" class="no-ch">¿Donde estoy?</a></li>
+   <li><a href="pantallas_pantallas_y_ms_pantallas.html" class="no-ch">Pantallas, pantallas y más pantallas</a></li>
+   <li><a href="contactando.html" class="no-ch">Contactando</a></li>
+   <li><a href="chateame.html" class="no-ch">Chateame</a></li>
+   <li><a href="no_te_desorientes.html" class="no-ch">No te desorientes</a></li>
+   <li><a href="atrvete_a_volar_solo.html" class="no-ch">Atrévete a volar solo</a></li>
+   <li><a href="la_lista_de_la_compra.html" class="no-ch">La lista de la compra</a></li>
+   <li><a href="por_si_no_sabes_idiomas.html" class="no-ch">Por si no sabes idiomas...</a></li>
+   <li><a href="aprendiendo_a_sumar.html" class="no-ch">Aprendiendo a sumar</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="pntate_la_cara.html" class="prev"><span>&laquo; </span>Anterior</a> | <a href="the_final_countdown.html" class="next"> Siguiente<span> &raquo;</span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Cronómetro</h1></div>
+<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id30">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Objetivos</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta30_90_2" class="block iDevice_content">
+<p>Crear un cron&oacute;metro que mida las horas, minutos y segundos que han transcurrido, y adem&aacute;s:</p>
+<ul>
+<li>Tenga un bot&oacute;n Start/Stop para iniciar/parar la cuenta.</li>
+<li>Tenga un bot&oacute;n Reset para reiniciar la cuenta.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id31">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta31_91_2" class="block iDevice_content">
+<p>Abre <strong>AppInventor</strong> y crea un nuevo proyecto llamado "<strong>Cronometro</strong>".</p>
+<p>Cambia la propiedad "<strong>AlignHorizontal</strong>" de "<strong>Screen1</strong>" a center.</p>
+<p>&nbsp;Arrastra un "<strong>HorizontalArrangement</strong>" y ponle estas propiedades:</p>
+<ul>
+<li><strong>Width</strong>: FillParent</li>
+<li>(despu&eacute;s de la anterior) <strong>AlignHorizontal</strong>: center</li>
+</ul>
+<p>Dentro del "<strong>HorizontalArrangement1</strong>" a&ntilde;ade 5 Labels, ren&oacute;mbralas as&iacute;:</p>
+<ul>
+<li><strong>HorasLabel</strong></li>
+<li><strong>DosPuntosLabel1</strong></li>
+<li><strong>MinutosLabel</strong></li>
+<li><strong>DosPuntosLabel2</strong></li>
+<li><strong>SegundosLabel</strong></li>
+</ul>
+<p>Para todas las etiquetas ponles un "<strong>FontSize</strong>" de 40, y as&iacute;gnales estos textos:</p>
+<ul>
+<li>"00"</li>
+<li>":"</li>
+<li>"00"</li>
+<li>":"</li>
+<li>"00"</li>
+</ul>
+<p>De manera que te quede as&iacute;:</p>
+<p><img src="cronometro01.png" width="359" height="103" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Despu&eacute;s a&ntilde;ade otro "<strong>HorizontalArrangement</strong>" debajo, con estas propiedades:</p>
+<ul>
+<li><strong>Width</strong>: FillParent</li>
+<li>(despu&eacute;s de la anterior)&nbsp;<strong>AlignHorizontal</strong>: center</li>
+</ul>
+<p>Dentro de ese "<strong>HorizontalArrangement</strong>" a&ntilde;ade dos botones llamados <strong>StartStopButton</strong> y <strong>ResetButton</strong>.</p>
+<p>As&iacute;gnales los textos "<em>Start</em>" y "<em>Reset</em>" respectivamente. Tambi&eacute;n quedar&aacute;n mejor redondeados:</p>
+<p><img src="cronometro02.png" width="343" height="131" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Ahora vamos a a&ntilde;adir el temporizador que nos permitir&aacute; contar el tiempo. Para ello de la categor&iacute;a "<strong>Sensors</strong>" arrastra un "<strong>Clock</strong>" a la pantalla, es un elemento no visible:</p>
+<p><img src="cronometro03.png" width="154" height="72" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Explicamos un poco como funciona este "<strong>Clock1</strong>": es un <em>contador</em> que produce un evento cada cierta cantidad de tiempo. Esa cantidad la podemos especificar en milisegundos en la propiedad "<strong>TimeInterval</strong>". Por ejemplo, si "<strong>TimeInterval</strong>" vale 1000, el reloj se <em>disparar&aacute;</em> cada segundo (1000 milisegundos).</p>
+<p>Otro ejemplo, si "<strong>TimeInterval</strong>" vale 1 el reloj se <em>disparar&aacute;</em> cada milisegundo, produciendo un evento que puede ejecutar las instrucciones que nosotros queramos cada milisegundo.</p>
+<p>Para nuestro cron&oacute;metro solo vamos a medir hasta los segundos, as&iacute; que vamos a fijar el valor "<strong>TimeInterval</strong>" a 1000.</p>
+<p>La forma de poner en marcha este <em>contador</em> de tiempo es poniendo su propiedad "<strong>TimerEnabled</strong>" a <strong>True</strong> y para pararlo hay que ponerla &nbsp;a <strong>False</strong>.</p>
+<p>Al principio del programa dejamos "<strong>TimerEnabled</strong>" desactivada (a <strong>False</strong>).</p>
+<p><img src="cronometro04.png" width="154" height="104" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>&nbsp;Vamos a programar al apartado de "<strong>Blocks</strong>":</p>
+<p>Nuestro reloj va a contar por segundos, pero ese tiempo no se guarda en nig&uacute;n sitio, necesitaremos una variable que guarde los segundos que han pasado desde que pongamos en marcha nuestro temporizador, despu&eacute;s ya transformaremos a horas, minutos y segundos.</p>
+<p>As&iacute; pues, vamos a crear una variable "<strong>tiempototal</strong>" que almacenar&aacute; los segundos que han pasado. Esta variable se inicializar&aacute; a 0.</p>
+<p><img src="cronometro05.png" width="267" height="37" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Analicemos que pasa con el bot&oacute;n "<strong>StartStopButton</strong>" . Cuando hacemos click sobre este bot&oacute;n, puede ocurrir que no estemos contando tiempo (y se estar&iacute;a mostrando el texto "<em>Start</em>"), en ese caso debemos poner el temporizador a contar y que el mensaje del bot&oacute;n sea "<em>Stop</em>", en otro caso es que s&iacute; que estar&iacute;amos contando tiempo (y se estar&iacute;a mostrando el texto "<em>Stop</em>"), entonces debemos para de contar y colocar el mensaje "<em>Start</em>" en el bot&oacute;n. Traduciendo todo esto a instrucciones ser&iacute;a:</p>
+<p><img src="cronometro06.png" width="443" height="204" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>NOTA: EL "<strong>StartStopButton</strong>" no cambia las etiquetas que muestran el tiempo.&nbsp;</p>
+<p>&nbsp;&iquest;Que debe hacer el bot&oacute;n "<strong>ResetButton</strong>"? Cuando lo clickemos debe parar de contar el tiempo y tambi&eacute;n poner las etiquetas que cuentan las horas, minutos y segundos a "00".</p>
+<p><img src="cronometro07.png" width="379" height="150" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Ahora vamos con la parte m&aacute;s dif&iacute;cil que es usar el temporizador "<strong>Clock1</strong>". Hemos configurado el "<strong>TimeInterval</strong>" a 1000 para que cada segundo que pase se produzca el evento</p>
+<p>"<strong>When Clock1.Timer</strong>" dentro de ese evento sumaremos 1 a la variable que cuenta el tiempo transcurrido en segundos y despu&eacute;s modificaremos las etiquetas de horas, minutos y segundos correspondientes haciendo uso de una f&oacute;rmula matem&aacute;tica que consistir&aacute; en obtener cocientes o restos de divisiones (recuerda que una hora tiene 3600 segundos y un minuto 60 segundos). Como esta parte es un pel&iacute;n m&aacute;s complicada la tienes resuelta aqu&iacute;:</p>
+<p><img src="cronometro08.png" width="600" height="174" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Tambi&eacute;n tenemos que modificar lo que hace el "<strong>ResetButton</strong>" porque ahora deber&aacute; poner el contador de segundos a 0 cada vez que hagamos click. Adem&aacute;s puede ocurrir que estemos contando y pulsemos el "<strong>ResetButton</strong>" por eso tambi&eacute;n deberemos cambiar al texto del "<strong>StarStopButton</strong>" a "<em>Start</em>".</p>
+<p><img src="cronometro09.png" width="340" height="174" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Prueba tu aplicaci&oacute;n con el m&oacute;vil, prueba a parar la cuenta, resetarla, etc. <em><strong>&iquest;Que pasa cuando los segundos, minutos u horas tienen un valor inferior a 10?</strong></em></p>
+<p>Para que las etiquetas de las horas, minutos y segundos aparezcan con dos digitos debemos comprobar si el valor es menor que 10 y entonces a&ntilde;adirle un "0" por delante a la etiqueta, en caso contrario mostramos el valor tal cual. Aqu&iacute; tienes el c&oacute;digo modificado:</p>
+<p><img src="cronometro10.png" width="650" height="497" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>&iquest;Que tal funciona ahora?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id32">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ampliación</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta32_89_2" class="block iDevice_content">
+<p>Modifica los programas para que quede m&aacute;s <strong><em>limpios</em></strong>.</p>
+<p>Para ello crea tres variables "<strong>horas</strong>", "<strong>minutos</strong>" y "<strong>segundos</strong>" , inicializalas a 0.</p>
+<p>Con el bot&oacute;n "<strong>ResetButton</strong>" tambi&eacute;n se ponen a 0. Y al principio del evento "<strong>Timer</strong>" de "<strong>Clock1</strong>" les asignas a cada una el valor de los tres c&aacute;lculos matem&aacute;ticos distintos que se hacen.&nbsp;Despu&eacute;s los "if ...else" y "Set..." te quedaran m&aacute;s <strong><em>limpios</em></strong>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id33">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ampliación</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta33_90_2" class="block iDevice_content">
+<p>Modifica la aplicaci&oacute;n para sustituir los botones "StartStopButton" y "ResetButton" por dos im&aacute;genes (Objeto Picture) para las que puedes usar las que se muestran &nbsp;a continuaci&oacute;n o crear tus propios botones:</p>
+<p><img src="boton_reset.png" width="200" height="43" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<table border="0" align="center">
+<tbody>
+<tr>
+<td><img src="boton_start.png" width="200" height="200" /></td>
+<td><img src="boton_stop.png" width="200" height="200" /></td>
+</tr>
+<tr>
+<td><img src="boton_start2.png" width="200" height="84" /></td>
+<td><img src="boton_stop2.png" width="200" height="84" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p align="center">Obra publicada con <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 3.0</a></p></div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="pntate_la_cara.html" class="prev"><span>&laquo; </span>Anterior</a> | <a href="the_final_countdown.html" class="next"> Siguiente<span> &raquo;</span></a>
+</div>
+</div>
+<div id="siteFooter"><center><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></center><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Programando en AppInventor</span> por <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco Nevado Montero</span> se distribuye bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.</div></div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

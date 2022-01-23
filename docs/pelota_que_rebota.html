@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="Spanish" xml:lang="Spanish" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Pelota que rebota | Programando en AppInventor </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="Spanish" />
+<meta name="author" content="Francisco Nevado Montero" />
+<meta name="generator" content="eXeLearning 2.0.1 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="pelota_que_rebota.html#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" >Programando en AppInventor</div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Programando en AppInventor</a></li>
+   <li><a href="qu_es_esto.html" class="no-ch">¿Qué es esto?</a></li>
+   <li><a href="antes_de_empezar.html" class="no-ch">Antes de empezar</a></li>
+   <li><a href="hola_mundo.html" class="no-ch">Hola mundo</a></li>
+   <li><a href="el_mvil_que_habla.html" class="no-ch">El móvil que habla</a></li>
+   <li id="active"><a href="pelota_que_rebota.html" class="active no-ch">Pelota que rebota</a></li>
+   <li><a href="cada_cosa_en_su_sitio.html" class="no-ch">Cada cosa en su sitio</a></li>
+   <li><a href="eco_ecoooo.html" class="no-ch">Eco, ecoooo....</a></li>
+   <li><a href="pinta_en_la_pizarra.html" class="no-ch">Pinta en la pizarra</a></li>
+   <li><a href="pntate_la_cara.html" class="no-ch">Píntate la cara</a></li>
+   <li><a href="cronmetro.html" class="no-ch">Cronómetro</a></li>
+   <li><a href="the_final_countdown.html" class="no-ch">The final countdown</a></li>
+   <li><a href="stop__descrgate_tus_apps.html" class="no-ch">¡Stop! - Descárgate tus apps</a></li>
+   <li><a href="si_vas_al_mercado_lleva_dinero.html" class="no-ch">Si vas al mercado, lleva dinero</a></li>
+   <li><a href="donde_estoy.html" class="no-ch">¿Donde estoy?</a></li>
+   <li><a href="pantallas_pantallas_y_ms_pantallas.html" class="no-ch">Pantallas, pantallas y más pantallas</a></li>
+   <li><a href="contactando.html" class="no-ch">Contactando</a></li>
+   <li><a href="chateame.html" class="no-ch">Chateame</a></li>
+   <li><a href="no_te_desorientes.html" class="no-ch">No te desorientes</a></li>
+   <li><a href="atrvete_a_volar_solo.html" class="no-ch">Atrévete a volar solo</a></li>
+   <li><a href="la_lista_de_la_compra.html" class="no-ch">La lista de la compra</a></li>
+   <li><a href="por_si_no_sabes_idiomas.html" class="no-ch">Por si no sabes idiomas...</a></li>
+   <li><a href="aprendiendo_a_sumar.html" class="no-ch">Aprendiendo a sumar</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="el_mvil_que_habla.html" class="prev"><span>&laquo; </span>Anterior</a> | <a href="cada_cosa_en_su_sitio.html" class="next"> Siguiente<span> &raquo;</span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Pelota que rebota</h1></div>
+<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id10">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Objetivos</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta10_89_2" class="block iDevice_content">
+<p>Crear una aplicaci&oacute;n con una pelotita que podemos lanzar con el dedo y empieza a moverse por la pantalla rebotando en los bordes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id11">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">La pelota que rebota</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta11_90_2" class="block iDevice_content">
+<p>Crear un nuevo proyecto, puedes llamarlo "<strong>pelotita</strong>".</p>
+<p>En el panel de componentes, de la secci&oacute;n "<strong>Drawing and animation</strong>" arrastrar un "<strong>Canvas</strong>" a la pantalla.</p>
+<p>En las propiedades de "<strong>Canvas1</strong>" pon:</p>
+<ul>
+<li><strong>Width</strong>: Fill parent</li>
+<li><strong>Height</strong>: Fill parent</li>
+</ul>
+<p>Ahora "<strong>Canvas1</strong>" deber&iacute;a ocupar toda la pantalla, aunque si lo muestra m&aacute;s peque&ntilde;o (como en la imagen siguiente) no te preocupes que tambi&eacute;n funcionar&aacute;.</p>
+<p><img src="insertar_canvas1.png" width="200" height="285" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Ahora de la misma secci&oacute;n de componentes "<strong>Drawing and animation</strong>" arrastra una "<strong>Ball</strong>" dentro del "<strong>Canvas1</strong>".</p>
+<p>Para hacer m&aacute;s grande la pelota, cambia la propiedad de "<strong>Ball1</strong>" (tambi&eacute;n puedes cambiar el color si quieres):</p>
+<ul>
+<li><strong>Radius</strong>: 15</li>
+</ul>
+<p><img src="insertar_pelota1.png" width="200" height="135" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Ve a la secci&oacute;n de programar "<strong>Blocks</strong>".</p>
+<p>En el panel "<strong>Blocks</strong>" selecciona "<strong>Ball1</strong>" y arrastra el bloque "<strong>When Ball1.Flung</strong>" (cuando pelota lanzada):</p>
+<p><img src="moviemiento1.png" width="300" height="78" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Ahora vamos a cambiar las propiedades de direcci&oacute;n y velocidad de la pelota, d&aacute;ndoles el valor del "<em>lanzamiento</em>" que hayamos hecho con el dedo. Para ello Haz click otra vez sobre "<strong>Ball1</strong>" e inserta los bloques para fijar (set) las propiedades "<strong>Heading</strong>" y "<strong>Speed</strong>":</p>
+<p><img src="movimiento2.png" width="300" height="101" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Y ahora <span>puedes colocar el raton </span>sobre las variables "<strong>speed</strong>" y "<strong>heading</strong>" y aparecer&aacute; la posibilidad de escoger "<strong>get speed</strong>" y "<strong>get heading</strong>" respectivamente, col&oacute;calas en su instrucci&oacute;n correspondiente.</p>
+<p><img src="movimiento3.png" width="350" height="105" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Si ahora pruebas el programa en el m&oacute;vil ver&aacute;s que la pelota se mueve muy lento, vamos a cambiar para que el atributo "<strong>speed</strong>" &nbsp;vaya m&aacute;s r&aacute;pido:</p>
+<p>&nbsp;<img src="movimiento4.png" width="400" height="108" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Tambi&eacute;n observar&aacute;s que la pelota no rebota contra los bordes sino que se desliza por ellos. Esto es porque no hemos puesto ninguna instrucci&oacute;n para que rebote, &iexcl;vamos a ello!</p>
+<p>Vuelve a seleccionar "<strong>Ball1</strong>" y arrastra el bloque "<strong>When Ball1.EdgeReached</strong>"</p>
+<p><img src="rebote1.png" width="242" height="94" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Ahora tambi&eacute;n de "<strong>Ball1</strong>" arrastra el bloque que permite rebotar en un borde:</p>
+<p><img src="rebote2.png" width="246" height="121" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Y por &uacute;ltimo inserta para que se rebote desde el borde que ha tocado:</p>
+<p><img src="rebote3.png" width="336" height="126" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Y ya lo podemos probar en nuestro m&oacute;vil.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id12">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ampliación</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta12_91_2" class="block iDevice_content">
+<p>Pon varias pelotas, cada una de un color o un radio diferente y que todas puedan lanzarse y rebotar con los bordes, pueden hacerlo con velocidades distintas. En principio no deben rebotar con las otras pelotas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id13">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ampliación</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta13_92_2" class="block iDevice_content">
+<p>Cuando hayas puesto varias pelotas haz que reboten tambi&eacute;n unas con otras, para ello puedes usar el evento de las pelotas "<strong>When Ball1.CollidedWith"</strong> en combinaci&oacute;n con una forma de "<em>rebote</em>" muy sencilla (aunque un poco cutre) que puede ser sumarle 180 grados a la direcci&oacute;n de la pelota.</p>
+<p><img src="ampliacion2_1.png" width="235" height="93" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>&nbsp;&nbsp;<img src="ampliacion2_2.png" width="563" height="50" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p align="center">Obra publicada con <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 3.0</a></p></div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="el_mvil_que_habla.html" class="prev"><span>&laquo; </span>Anterior</a> | <a href="cada_cosa_en_su_sitio.html" class="next"> Siguiente<span> &raquo;</span></a>
+</div>
+</div>
+<div id="siteFooter"><center><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></center><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Programando en AppInventor</span> por <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco Nevado Montero</span> se distribuye bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.</div></div>
+<script type="text/javascript" src="my_js.js"></script></body></html>
